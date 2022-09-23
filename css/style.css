@@ -979,7 +979,7 @@ margin-bottom: 15rem;
    
     border: none;
     font-size: 1.3rem;
-    margin-left: -17rem;
+    margin-left: -16rem;
     height: 3rem;
     padding: 0rem;
     width: 50%;
@@ -1003,7 +1003,7 @@ margin-bottom: 15rem;
   
   .footer__logo img {
     height: 3rem;
-    width: 260%;
+    width: 230%;
 
   }
 
@@ -1014,7 +1014,7 @@ margin-bottom: 15rem;
   }
   .news__container a{
     font-size: 1.3rem;
-    margin-left: -5rem;
+    margin-left: 1rem;
   
   }
   .news__container a img{
@@ -1043,6 +1043,9 @@ margin-bottom: 15rem;
   }
   .image__text p{
     font-size: 1rem;
+  }
+  .news__section {
+    padding: 3rem;
   }
 
 
