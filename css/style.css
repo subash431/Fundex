@@ -1007,6 +1007,10 @@ margin-bottom: 15rem;
 
   }
 
+  .footer__another--p input {
+    width: 85vmin;
+}
+
 /* news section */
 
   .news__header__items h1 {
