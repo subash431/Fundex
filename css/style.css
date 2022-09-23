@@ -312,8 +312,9 @@ transition: all .2s ease-in-out;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
-    font-size: 1.5rem;
-    border-radius: 1.5rem;
+    font-size: 2.5rem;
+    border-radius: 1rem;
+    line-height: 3rem;
 
   }
  
@@ -947,140 +948,292 @@ margin-bottom: 15rem;
           }
         }
 
+@media only screen and (max-width: 400px){
+  /* hero section */
+  .hero__container{
+    gap: 2.5rem;
 
-        @media only screen and (max-width: 400px){
-          /* footer section */
-          .logo img{
-            height: 3rem;
-          }
-          .financial__section--text h1 {
-            font-size: 3rem;
-            text-align: center;
-          }
-          .footer__lower--items{
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            gap: 3rem;
-          }
-          .footer__another--p p{
-            margin-bottom: 1rem;
-          }
+  }
+  .hero__container h3{
+    font-size: 4vmin;
+  }
+  .hero__container h1{
+    font-size: 5vmin;
+    line-height: 2rem;
+  }
+   /* footer section */
+   .logo img{
+    height: 3rem;
+  }
+  
+  .footer__lower--items{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  .footer__another--p p{
+    margin-bottom: 1rem;
+  }
+  .footer__button{
+   
+    border: none;
+    font-size: 1.3rem;
+    margin-left: -17rem;
+    height: 3rem;
+    padding: 0rem;
+    width: 50%;
+  }
+  .footer__upper--text h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      text-align: left;
+    
+  }
+  .footer__upper--text p{
+    text-align: left;
 
-          .news__header__items h1 {
-            font-size: 2rem;
-          }
+  }
+  .footer__section{
+    padding: 3rem;
+  }
+  .footer__upper--text{
+    margin-bottom: 2rem;
+  }
+  
+  .footer__logo img {
+    height: 3rem;
+    width: 260%;
+
+  }
+
+/* news section */
+
+  .news__header__items h1 {
+    font-size: 2rem;
+  }
+  .news__container a{
+    font-size: 1.3rem;
+    margin-left: -5rem;
+  
+  }
+  .news__container a img{
+    height: 1rem;
+  }
+  .news__header__items{
+    gap: 1.5rem;
+  }
+  .news__header__items h3 {
+    font-size: 1.2rem;
+  }
+  .news__header__items h1{
+    font-size: 1.5rem;
+  }
+  .news__images--items{
+    gap: 1.5rem;
+  }
+  .news__images{
+    gap: 2rem;
+  }
+  .news__images--items > h1 {
+    font-size: 1.5rem;
+  }
+  .news__images--items > p {
+    font-size: 1.1rem;
+  }
+  .image__text p{
+    font-size: 1rem;
+  }
+
+
+
+
 /* general section */
-          .general__section {
-            flex-direction: column;
-            gap: 5rem;
-          }
-          .ptag >p{
-            font-size: 1.5rem;
-          }
-          .ptag--items h1{
-            font-size: 4rem;
-          }
-          .general__text h1{
-            font-size: 2rem;
-            font-weight: 700;
-          }
-          .general__text h3{
-            font-size: 1.5rem;
-          }
-          .general__text p{
-            font-size: 1.5rem;
-            line-height: 2rem;
-          }
-
-          .ptag__number{
-            flex-direction: column;
-          }
-          /* general1 section */
-          .general1{
-            padding: 5rem;
-            padding-top: 2rem;
-          }
-
-          .general1__container{
-            flex-direction: column;
-          }
-          .general1__container--items >h1{
-            font-size: 7vmin;
-          }
-          .sub__div h1{
-            font-size: 5vmin;
-
-          }
-          .sub__div p{
-            font-size: 3vmin;
-            line-height: 2rem;
-          }
-
-          /* work section */
-          .work__container{
-            flex-direction: column;
-            gap: 8rem;
-          }
-          .work__container--text h1 {
-            font-size: 2.5rem;
-          }
-          .work__logos img{
-            height: 3rem;
-          }
-
-          /* expertise section */
-          .expertise__section--header h1{
-            font-size: 3rem;
-            font-weight: 700;
-          }
-          .expertise__section--div{
-            display: flex;
-            flex-direction: column;
-          }
-          .expertise__div--items{
-            width: 30rem;
-          }
-
-          .financial__section--item{
-            flex-direction: column;
-          }
-
-          .financial__section--text >img{
-            width: 26rem;
-          }
-
-          .hero__button{
-            flex-direction: column;
-          }
-          .footer__button{
-            width: 16rem;
-            border: none;
-            font-size: 1.5rem;
-            margin-left: -16rem;
-          }
-          .footer__upper--text h1 {
-              font-size: 2rem;
-              font-weight: 700;
-              text-align: left;
-            
-          }
-          .footer__upper--text p{
-            text-align: left;
-
-          }
-          .footer__section{
-            padding: 3rem;
-          }
-
-          .news__container a{
-            font-size: 1.5rem;
-            margin-left: -6rem;
-          }
-          .news__container a img{
-            height: 1rem;
-          }
 
 
-        }
+  .general__section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .general__text{
+    margin-left: -5.5rem;
+    gap: 2rem;
+  }
+  .general{
+    padding: 4rem;
+  }
+  .ptag{
+    gap: 4rem;
+
+  }
+  .ptag >p{
+    font-size: 1.5rem;
+  }
+  .ptag--items h1{
+    font-size: 4rem;
+  }
+  .general__text h1{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .general__text h3{
+    font-size: 1.5rem;
+  }
+  .general__text p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .ptag__number{
+    flex-direction: column;
+  }
+
+
+
+/* general1 section */
+  .general1{
+    padding: 3rem;
+    padding-top: 2rem;
+  }
+
+  .general1__container{
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .general1__container--items >h1{
+    font-size: 5vmin;
+  }
+  .general1__container--items >h3{
+    font-size: 3vmin;
+  }
+  .general1__container--items >p{
+    font-size: 3vmin;
+  }
+  .general1__container--items >h3{
+    font-size: 3vmin;
+  }
+  .sub__div h1{
+    font-size: 3.5vmin;
+    font-weight: 700
+
+  } .sub__div h1 img{
+    height: 1.5rem;
+  }
+  
+  .sub__div p{
+    font-size: 3vmin;
+    line-height: 2rem;
+  }
+  
+  .general1__container--image img {
+    width: 30rem;
+    height: auto;
+    }
+    .general1__container--items{
+      gap: 2rem;
+    }
+
+
+
+/* work section */
+  .work__section{
+    padding: 0rem;
+  }
+  .work__container{
+    padding: 5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .work__container--text h1 {
+    font-size: 1.5rem;
+  }
+  .work__container--text h3{
+    font-size: 1.1rem;
+  }
+  .work__logos img{
+    height: 3rem;
+  }
+
+
+
+/* expertise section */
+.expertise__section{
+  padding: 3rem;
+}
+  .expertise__section--header h1{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .expertise__section--div{
+    display: flex;
+    flex-direction: column;
+  }
+  .expertise__div--items{
+    width: 30rem;
+  }
+  .expertise__section--items {
+    gap: 3rem;
+  }
+  .expertise__section--header{
+    gap: 1rem;
+  }
+  .expertise__section--header h3{
+    font-size: 1.1rem;
+  }
+  .expertise__section--header h1{
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+
+
+
+
+/* financial section */
+
+  .financial__section--text h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .financial__section--item{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .financial__section--text >img{
+    width: 100%;
+    height: auto;
+
+  }
+
+  .hero__button{
+    flex-direction: column;
+  }
+  .financial__section{
+    padding: 4rem;
+  }
+  
+
+  .financial__section--image img {
+    width: 30rem;
+    height: auto;
+  }
+
+  .financial__section--text {
+    gap: 1.5rem;
+  }
+  .financial__section--text h3{
+    font-size: 1.5rem;
+  }
+  .financial__section--text h1{
+    font-size: 2rem;
+    text-align: left;
+  }
+
+                                       
+
+}
 
